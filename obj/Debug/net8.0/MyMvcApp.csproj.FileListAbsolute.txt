@@ -28,3 +28,36 @@ C:\Users\azureuser\MyMvcApp\obj\Debug\net8.0\refint\MyMvcApp.dll
 C:\Users\azureuser\MyMvcApp\obj\Debug\net8.0\MyMvcApp.pdb
 C:\Users\azureuser\MyMvcApp\obj\Debug\net8.0\MyMvcApp.genruntimeconfig.cache
 C:\Users\azureuser\MyMvcApp\obj\Debug\net8.0\ref\MyMvcApp.dll
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\bin\Debug\net8.0\appsettings.Development.json
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\bin\Debug\net8.0\appsettings.json
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\bin\Debug\net8.0\MyMvcApp.staticwebassets.runtime.json
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\bin\Debug\net8.0\MyMvcApp.staticwebassets.endpoints.json
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\bin\Debug\net8.0\MyMvcApp.exe
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\bin\Debug\net8.0\MyMvcApp.deps.json
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\bin\Debug\net8.0\MyMvcApp.runtimeconfig.json
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\bin\Debug\net8.0\MyMvcApp.dll
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\bin\Debug\net8.0\MyMvcApp.pdb
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.AssemblyInfoInputs.cache
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.AssemblyInfo.cs
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.csproj.CoreCompileInputs.cache
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.MvcApplicationPartsAssemblyInfo.cache
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.RazorAssemblyInfo.cache
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.RazorAssemblyInfo.cs
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.sourcelink.json
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\scopedcss\bundle\MyMvcApp.styles.css
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\scopedcss\projectbundle\MyMvcApp.bundle.scp.css
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\staticwebassets.build.json
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\staticwebassets.development.json
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.dll
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\refint\MyMvcApp.dll
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.pdb
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.genruntimeconfig.cache
+C:\New folder\New folder\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\ref\MyMvcApp.dll
