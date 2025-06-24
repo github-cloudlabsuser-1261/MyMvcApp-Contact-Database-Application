@@ -1,0 +1,53 @@
+name: Deploy to Azure
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+env:
+  AZURE_WEBAPP_NAME: mymvcapp-crud    # Replace with your app name from deploy.parameters.json
+  AZURE_WEBAPP_PACKAGE_PATH: '.'      # Set to the path to your web app project
+  DOTNET_VERSION: '8.0.x'            # Set this to the .NET version your app uses
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: ${{ env.DOTNET_VERSION }}
+    
+    - name: Restore dependencies
+      run: dotnet restore
+    
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+    
+    - name: Publish
+      run: dotnet publish --configuration Release --no-build --output ./publish
+    
+    - name: Login to Azure
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+    
+    - name: Deploy ARM Template
+      uses: azure/arm-deploy@v1
+      with:
+        subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+        resourceGroupName: ${{ secrets.AZURE_RG }}
+        template: ./deploy.json
+        parameters: ./deploy.parameters.json
+    
+    - name: Deploy to Azure Web App
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: ${{ env.AZURE_WEBAPP_NAME }}
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+        package: ./publish
